@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_altusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/altusuario"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_altusuario"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/et_nombre"
+        android:inputType="text"
+         />
+
+    <EditText
+        android:id="@+id/et_Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_nombre"
+        android:layout_marginBottom="12dp"
+        android:hint="@string/et_telefono"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Telefono"
+        android:hint="@string/et_email"
+        android:layout_marginBottom="12dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Twitter"
+        android:hint="@string/et_twit"
+        android:layout_below="@id/et_email"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/bt_boton"
+        android:layout_alignParentBottom="true"
+        android:hint="@string/mi_botom"
+        android:text="@string/mi_botom"
+        />
+
+
+
+</RelativeLayout>

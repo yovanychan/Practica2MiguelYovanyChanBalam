@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Practica2MiguelYovanyChanBalam</string>
+    <string name="altusuario">Alta usuario</string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_telefono">Teléfono</string>
+    <string name="et_email">Email</string>
+    <string name="et_twit">Twitter</string>
+    <string name="mi_botom">enviar datos</string>
+    <string name="clic">clic</string>
+    <string name="tv_datosr">Datos recibidos</string>
+    <string name="btn_editda">Editar datos</string>
+</resources>
